@@ -68,6 +68,7 @@ async def randomnumber(ctx):
   title="Random Number Is",
   description=f"{x}%",
     color=0xFF0000
+)
     await ctx.send(embed=e)
-      
+
 client.run("TOKEN")
